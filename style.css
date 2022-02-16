@@ -11,7 +11,6 @@ h1 {
   margin: 10vh 0 0 0;
   font-family: sans-serif;
   font-size: 2rem;
-  /* animation: rainbow 2s infinite ease-in; */
 }
 
 .container {
@@ -108,22 +107,4 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
   outline: none;
-}
-
-@keyframes rainbow {
-  from {
-    color: #6666ffd0;
-  }
-  10% {
-    color: #0099ffc9;
-  }
-  50% {
-    color: #00ff00b7;
-  }
-  75% {
-    color: #ff3399a2;
-  }
-  100% {
-    color: #6666ffd2;
-  }
 }
